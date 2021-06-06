@@ -1,22 +1,22 @@
 {
-  "name": "bot-list-bot",
+  "name": "Rainbow-Studios-Tejas",
   "version": "1.0.0",
-  "description": "- Easy To setup and run the bot - Tested by node.js",
+  "description": "- Easy To setup and run the bot - Tested by Me",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Just-Msv/bot-list-bot.git"
+    "url": "git+https://github.com/TajuModding/discord-bot-list-command-based.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Just-Msv/bot-list-bot/issues"
+    "url": "https://github.com/TajuModding/discord-bot-list-command-based/issues"
   },
-  "homepage": "https://github.com/Just-Msv/bot-list-bot#readme",
+  "homepage": "https://github.com/TajuModding/discord-bot-list-command-based#readme",
   "dependencies": {
     "discord.js": "^12.5.3",
     "quick.db": "^7.1.3"
