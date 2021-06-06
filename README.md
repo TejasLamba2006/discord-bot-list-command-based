@@ -1,5 +1,6 @@
 <h1 align='center'> Rainbow Studios: Where Development Begins!  </h1
 <a href="https://discord.gg/gf56GZA6mp"><img src="http://invidget.switchblade.xyz/gf56GZA6mp"/></a> <br>
+https://discord.gg/gf56GZA6mp
 JOIN FOR ERRORS AND SUPPORT
 
 ### Discord Bot Listbot
