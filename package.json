@@ -1,0 +1,24 @@
+{
+  "name": "bot-list-bot",
+  "version": "1.0.0",
+  "description": "- Easy To setup and run the bot - Tested by node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Just-Msv/bot-list-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Just-Msv/bot-list-bot/issues"
+  },
+  "homepage": "https://github.com/Just-Msv/bot-list-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "quick.db": "^7.1.3"
+  }
+}
