@@ -11,6 +11,20 @@ JOIN FOR ERRORS AND SUPPORT
 
 - Go to https://discord.dev/ and create a application
 - Copy your `TOKEN` and paste in [`index.js`](https://github.com/TajuModding/discord-bot-list-command-based/blob/main/index.js) `line 69`
+- Fill `line 20-30` of `client.settings` [`index.js`](https://github.com/TajuModding/discord-bot-list-command-based/blob/main/index.js)
+```js
+client.settings = {
+    prefix: "REPLACE_PREFIX", //Put ur prefix "/" is the prefix in Rainbow Studios
+    token: "REPLACE_TOKEN", //Put your token from discord.dev
+    addChannel: "ADD_CHANNEL_ID", //The channel ID where users can run `/bot-add <BOT ID>`
+    logChannel :"LOG_CHANNEL_ID", //The log channel id where all logs will go
+    modRole: "BOT_TESTER_ROLE_ID", //the role id which can accept bots	
+    processChannel: "TESTING_CHANNEL_ID", //	Where '/accept' and '/deny' commands will only work
+    emoji: "☑️", //the emoji reacted to all successfull commands
+    devRole: "DEVOLOPER_ROLE_ID" //the role id given to users when thier bot's are accepted
+    
+ }
+```
 
 ### How to run the bot?
 
