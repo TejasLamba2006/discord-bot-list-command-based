@@ -18,21 +18,21 @@ console.log("These are the Commands Activated")
  })
  
 client.settings = {
-    prefix: "REPLACE_PREFIX",
-    token: "REPLACE_TOKEN",
-    addChannel: "ADD_CHANNEL_ID",
-    logChannel :"LOG_CHANNEL_ID",
-    modRole: "BOT_TESTER_CHANNEL_ID",	
-    processChannel: "TESTING_CHANNEL_ID",
-    emoji: "☑️",
-    devRole: "DEVOLOPER_ROLE_ID"
+    prefix: "REPLACE_PREFIX", //Put ur prefix "/" is the prefix in Rainbow Studios
+    token: "REPLACE_TOKEN", //Put your token from discord.dev
+    addChannel: "ADD_CHANNEL_ID", //The channel ID where users can run `/bot-add <BOT ID>`
+    logChannel :"LOG_CHANNEL_ID", //The log channel id where all logs will go
+    modRole: "BOT_TESTER_ROLE_ID", //the role id which can accept bots	
+    processChannel: "TESTING_CHANNEL_ID", //	Where '/accept' and '/deny' commands will only work
+    emoji: "☑️", //the emoji reacted to all successfull commands
+    devRole: "DEVOLOPER_ROLE_ID" //the role id given to users when thier bot's are accepted
     
  }
  
 client.on('ready', () => {
 	client.user.setStatus('online');
-    client.user.setActivity(`${client.settings.prefix}help`, {type: "PLAYING"});
-    console.log(`Bot is Online Coded By Msv`)
+    client.user.setActivity(`${client.settings.prefix}help | Tejas | Rainbow Studios`, {type: "PLAYING"});
+    console.log(`Bot is Online Coded By Tejas`)
 })
 
 client.on('message', async message => {
@@ -66,5 +66,5 @@ client.on('guildMemberRemove', async member => {
   })
 })
 
-client.login("REPLACE_TOKEN")
+client.login("REPLACE_TOKEN") //Put ur token xd
 
